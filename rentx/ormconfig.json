@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "port": 5432,
+    "host": "localhost",
+    "username": "docker",
+    "password": "lucas",
+    "database": "rentx",
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
